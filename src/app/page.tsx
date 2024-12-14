@@ -1,4 +1,4 @@
-this is an use state hook of react 
+// this is an use state hook of react 
 // 'use client'
 // import { useState } from "react";
 // export default function Home() {
@@ -25,30 +25,30 @@ this is an use state hook of react
 //   );
 // }
 
-now this is useeffect hook of react in nextjs 
+// now this is useeffect hook of react in nextjs 
 
-// 'use client'
-// import { useEffect, useState } from "react";
-// export default function Home() {
+'use client'
+import { useEffect, useState } from "react";
+export default function Home() {
 
-//   const [count, setName] = useState(0)
+  const [count, setName] = useState(0)
 
-//   useEffect (()=>{
-//     console.log("hello i am fire now name is use state ")
+  useEffect (()=>{
+    console.log("hello i am fire now name is use state ")
 
-//   } , [])
+  } , [])
 
 
 
-//   return (
+  return (
 
-//     <div>
-//       <h2>use state </h2>
-//       <h2>React hook</h2>
-//       <br />
-//       <button onClick={ ()=> setName(count +1 ) } >Click to count incriment = {count} </button>
+    <div>
+      <h2>use state </h2>
+      <h2>React hook</h2>
+      <br />
+      <button onClick={ ()=> setName(count +1 ) } >Click to count incriment = {count} </button>
 
-//     </div>
+    </div>
 
-//   );
-// }
+  );
+}
